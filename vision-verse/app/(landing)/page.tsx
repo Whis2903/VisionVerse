@@ -1,9 +1,26 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
+
+
 const LandingPage = () =>{
     return (
         <div>
             Landing Page (unprotected)
+            <div>
+                <Link href="/sign-in">
+                    <Button>
+                        Login
+                    </Button>
+                </Link>
+                <Link href="/sign-up">
+                    <Button>
+                        Login
+                    </Button>
+                </Link>
+            </div>
         </div>
     );
 }
 
-export default LandingPage
+export default LandingPage;
